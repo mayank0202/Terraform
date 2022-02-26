@@ -22,7 +22,7 @@ resource "aws_internet_gateway" "gw" {
   }
 }
 
-# create custom route table --------------------------------3. 
+# create custom route table --------------------------------3 
 
 resource "aws_route_table" "prod-route-table" {
   vpc_id = aws_vpc.prod-vpc.id
